@@ -30,14 +30,7 @@ def print_board(board, x, y, ycord):
         print(f"{ycord[i]} " + " ".join(board[i]))
 
 print_board(player_board, x, y, ycord)
-# Print column numbers
-#print("  " + " ".join(str(i) for i in range(1, x + 1)))
 
-# Print the player board with coordinates
-#for i in range(y):
-  #  row_label = ycord[i]
- #   row_data = " ".join(player_board[i])
-#    print(f"{row_label} {row_data}")
 
 num = int(input("Number of ships: "))
 for i in range(num):
